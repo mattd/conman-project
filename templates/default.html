@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ block.super }} | Default{% endblock %}
+
+{% block body_id %}default{% endblock %}
+
+{% block content_title %}{{ page.title }}{% endblock %}
+
+{% block content %}
+
+	{{ page.body }}
+
+{% endblock %}
