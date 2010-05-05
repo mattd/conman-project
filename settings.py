@@ -50,6 +50,11 @@ MEDIA_URL = 'http://127.0.0.1:8000/static/'
 # Examples: "http://foo.com/media/", "/media/".
 ADMIN_MEDIA_PREFIX = '/admin_media/'
 
+TINYMCE_JS_FILES = (
+    'js/tiny_mce/tiny_mce.js',
+    'js/tiny_mce/textareas.js',
+)
+
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = '7bqkh4lsv!(tqd$(3r%vatb=i&%2rj0wpkx52usuxj)0#axbx3'
 
