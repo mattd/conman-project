@@ -1,5 +1,7 @@
 tinyMCE.init({
 		mode : "textareas",
+		width : "600",
+		height : "400",
 		theme : "advanced",
 		theme_advanced_toolbar_location : "top",
 		theme_advanced_toolbar_align : "left",
